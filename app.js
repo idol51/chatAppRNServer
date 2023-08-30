@@ -9,7 +9,7 @@ const socket = require('./utils/socket');
 
 const io = new Server(server, {
   cors: {
-    origin: 'http://192.168.3.125:8081'
+    origin: true
   }
 });
 const port = process.env.PORT || 3000;
